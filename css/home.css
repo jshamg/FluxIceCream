@@ -1,0 +1,7 @@
+.box-full#storeIMG {
+    position: relative;
+    border: 5px solid orange;
+    /*width: 100%;*/
+
+    box-sizing: border-box;
+}

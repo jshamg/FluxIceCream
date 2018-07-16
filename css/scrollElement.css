@@ -1,0 +1,13 @@
+.parallax-scroll-img {
+    /* The image used */
+    background-image: url("../pics/bg-1.svg");
+
+    /* Set a specific height */
+    min-height: 300px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 30px 30px;
+}

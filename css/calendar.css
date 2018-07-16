@@ -1,0 +1,107 @@
+#calendarSite {
+    position:relative;
+    width: 100%;
+}
+
+
+#calendar {
+    background-color: #F7DB70;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+#calendar-col {
+    height: 100%;
+}
+
+#newsHeader {
+    border-width: 1px 0 1px 0;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#maxNews {
+    font-size: inherit;
+    line-height: inherit;
+    padding: inherit;
+    margin: inherit;
+}
+
+#newsInfo {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 769px) {
+    #newsInfo {
+        height: 100%;
+    }
+}
+
+#daysNewsInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    #daysNewsInfo {
+        margin-bottom: 1.5rem;
+    }
+}
+
+#newsInfo #daysNewsInfo h3 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+@media (max-width: 380px) {
+    #newsInfo #daysNewsInfo h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    #newsInfo #daysNewsInfo h3 {
+        margin-top: 2rem;
+    }
+}
+
+#newsInfo #daysNewsInfo .dayNewsInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0.5rem 0.5rem 5px grey;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+}
+
+#newsInfo #daysNewsInfo .dayNewsInfo.last {
+    margin-bottom: 0 !important;
+}
+
+#newsInfo #daysNewsInfo .dayNewsInfo .tag {
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+#newsInfo #daysNewsInfo .dayNewsInfo .sorte {
+    text-align: right;
+    width: 100%;
+    font-size: 1.5rem;
+}

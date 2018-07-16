@@ -1,0 +1,151 @@
+#contactSite {
+    position:relative;
+    width: 100%;
+    background-color: #D6A3DC;
+}
+
+#contact {
+    background-color: #C3A9D4;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+#contact-col {
+    /*position: relative;*/
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    border-color: black;
+}
+
+@media (min-width: 769px) {
+    #contact-col {
+        border-width: 0 0 0 1px;
+    }
+}
+
+#contactForm {
+    /*position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);*/
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    #contactForm {
+        width: 80%;
+    }
+}
+
+#contactForm input[name=text], #contactForm input[type=email], #contactForm textarea, #contactForm button {
+    width: 100%;
+    padding: 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    /*margin-bottom: 25px;*/
+    resize: none;
+}
+
+#contactForm textarea {
+    /*Höhe nur für Verständnis hier, wir mit JS gesetzt,
+    da sonst bug bei Erstaufruf der Seite, wegen dynamischer größe.*/
+    height: 60%;
+    padding: 20px;
+}
+
+#contactForm input[type=email] {
+    /*margin-top: 0;*/
+    /*Höhe nur für Verständnis hier, wir mit JS gesetzt,
+    da sonst bug bei Erstaufruf der Seite, wegen dynamischer größe.*/
+    height: 10%; //
+}
+
+#contactForm button[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /*margin-bottom: 0;*/
+    /*Höhe nur für Verständnis hier, wir mit JS gesetzt,
+    da sonst bug bei Erstaufruf der Seite, wegen dynamischer größe.*/
+    height: 10%; //
+}
+
+
+#contactForm button[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#contactInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#headerContactInfo {
+    margin: 2rem;
+}
+
+#contentContactInfo {
+    margin: 1rem;
+}
+
+.vertContentContactInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#linkContentContactInfo * {
+    margin: 0.5rem;
+}
+
+.imgContactInfo {
+    height: 3rem;
+    width: 3rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #b3d7ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgContactInfo:hover{
+    opacity: 0.7;
+}
+
+@media (min-width: 769px) {
+    #contactInfo {
+        height: 100%;
+    }
+
+    #colContactInfo {
+        height: 100%;
+    }
+
+    #contact {
+        height: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    #contactInfo {
+        margin-bottom: 2rem;
+    }
+}

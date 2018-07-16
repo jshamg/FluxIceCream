@@ -1,0 +1,34 @@
+.bottombar {
+    background-color: dimgray;
+    overflow: hidden;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottombar #bigViewportFooter {
+    display: block;
+}
+
+.bottombar #smallViewportFooter {
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .bottombar #bigViewportFooter {
+        display: none;
+    }
+
+    .bottombar #smallViewportFooter {
+        display: flex;
+    }
+}
