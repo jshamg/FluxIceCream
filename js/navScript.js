@@ -7,6 +7,10 @@ function showNav() {
     }
 }
 
+/*Thanks to Alice Wonder @ https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header/28920612#28920612
+* The Function I wrote worked just on the first click,
+* but on the second it the navbar overscrolls the div again...
+* */
 function outsideToHash() {
     var fragment;
     if (window.location.hash) {

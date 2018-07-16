@@ -109,6 +109,10 @@
     align-items: center;
 }
 
+.vertContentContactInfo {
+    cursor: pointer;
+}
+
 #linkContentContactInfo * {
     margin: 0.5rem;
 }

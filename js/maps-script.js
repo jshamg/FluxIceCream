@@ -18,4 +18,3 @@ function myMap(){
     var infoWindow = new google.maps.InfoWindow({content:'<b>Flux Ice Cream</b><br>Prinzenallee 1<br>13357 Berlin'});
     infoWindow.open(map,marker);
 };
-/*google.maps.event.addDomListener(window,"load",myMap());*/
