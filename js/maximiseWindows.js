@@ -46,11 +46,11 @@ $(document).ready(function() {
         console.log("The height of daysNewsInfo height: " + $("#daysNewsInfo").height());
         if (viewportSize.getHeight() <= (($("#daysNewsInfo").height()*1.25)+64)) {
             if(w<=768){
-                $("#calendarSite").css("height", 470 + $("#newsInfo").height());
+                $("#calendarSite").css("height", ((470)+64) + $("#newsInfo").height());
                 $("#calendar-col").css("height", $("#calendar").height() - $("#newsInfo").height());
             } else {
-                    $("#calendarSite").css("height", (($("#daysNewsInfo").height()*1.25)+64));
-                    $("#calendar-col").css("height", "100%");
+                $("#calendarSite").css("height", (($("#daysNewsInfo").height()*1.25)+64));
+                $("#calendar-col").css("height", "100%");
             }
         } else {
             if(w<=768){
