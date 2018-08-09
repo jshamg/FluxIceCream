@@ -12,17 +12,22 @@ function showNav() {
 * but on the second it the navbar overscrolls the div again...
 * */
 function outsideToHash() {
-    var fragment;
-    if (window.location.hash) {
-        fragment = window.location.hash.substring(1);
-        anchorScroll(fragment);
-    }
+    setTimeout(function () {
+        var fragment;
+        if (window.location.hash) {
+            fragment = window.location.hash.substring(1);
+            anchorScroll(fragment);
+            console.log(fragment);
+        }
+    }, 500);
 }
 
-function insideToHash(nnode) {
+function insideToHash(node) {
     var fragment;
-    fragment = $(nnode).attr('href').substring(1);
+    console.log(node);
+    fragment = $(node).attr('href').substring(1);
     anchorScroll(fragment);
+    console.log(fragment);
 }
 
 function anchorScroll(fragment) {

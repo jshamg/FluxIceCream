@@ -1,0 +1,24 @@
+.box-full#pageStuff {
+    /*width: 100%;*/
+}
+
+#page #pageStuff #header {
+    background: #FCBFB3;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page #pageStuff #content {
+    overflow: auto;
+    padding: 0px 40px;
+}
+
+#page #pageStuff #content h2{
+    padding-top: 20px;
+}
+
+#page #pageStuff #content h3{
+    padding-top: 10px;
+}

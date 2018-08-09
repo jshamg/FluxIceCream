@@ -1,0 +1,16 @@
+.box-full#pageStuff {
+    /*width: 100%;*/
+}
+
+#page #pageStuff #header {
+    background: #B5E8D5;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page #pageStuff #content {
+    overflow: auto;
+    padding: 0px 40px;
+}
