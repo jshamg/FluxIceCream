@@ -14,3 +14,19 @@
     overflow: auto;
     padding: 0px 40px;
 }
+
+#page #pageStuff #content .contains {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#page #pageStuff #content h2 {
+    font-size: 3rem;
+}
+
+#page #pageStuff #content p {
+    border-bottom: 2px dotted black;
+    font-size: 2rem;
+}

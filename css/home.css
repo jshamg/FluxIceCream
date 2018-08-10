@@ -1,7 +1,18 @@
 .box-full#storeIMG {
     position: relative;
-    border: 5px solid orange;
+    background-color: #FCBFB3;
     /*width: 100%;*/
-
-    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+.box-full#storeIMG #slogan{
+     width: 60%;
+ }
+
+.box-full#storeIMG #sloganLogo{
+    width: 40%;
+}
+

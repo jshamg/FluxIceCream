@@ -31,3 +31,13 @@
         display: flex;
     }
 }
+
+.bottombar a {
+    color: #FCBFB3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.bottombar a:hover {
+    color: #75CDE8;
+}

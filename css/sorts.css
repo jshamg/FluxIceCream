@@ -72,15 +72,18 @@
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-bottom: 20px;
-    background-color: #4CAF50;
+    background-color: dimgray;
     color: white;
     cursor: pointer;
     font-size: 2rem;
+    padding: 10px 40px;
+    margin-bottom: 20px;
 }
 
 #sortsIce-col #moreButton:hover {
-    background-color: #45a049;
+    background-color: lightgrey;
+    color: black;
+    border-color: black;
 }
 
 #next-col .clickable {
