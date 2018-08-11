@@ -3,7 +3,7 @@ function scrollSpy() {
     var sections = ['home', 'headerForSortsSite', 'aboutUs', 'calendarSite', 'contactSite', 'mapSite'];
     var current;
     for (var i = 0; i < sections.length; i++) {
-        if ( $('#'+sections[i]).offset().top <= $(window).scrollTop() + 200 ) {
+        if ( $('#'+sections[i]).offset().top <= $(window).scrollTop() + 300 ) {
             current = sections[i];
         }
     }

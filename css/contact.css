@@ -1,11 +1,11 @@
 #contactSite {
     position:relative;
     width: 100%;
-    background-color: #D6A3DC;
+    background-color: #FDCB96;
 }
 
 #contact {
-    background-color: #C3A9D4;
+    background-color: #FCA671;
     width: 100%;
     height: 100%;
     padding: 10px;
@@ -62,30 +62,38 @@
     da sonst bug bei Erstaufruf der Seite, wegen dynamischer größe.*/
     height: 60%;
     padding: 20px;
+    font-family: Courier New;
+    font-size: 1rem;
 }
 
 #contactForm input[type=email] {
     /*margin-top: 0;*/
     /*Höhe nur für Verständnis hier, wir mit JS gesetzt,
     da sonst bug bei Erstaufruf der Seite, wegen dynamischer größe.*/
-    height: 10%; //
+    height: 10%;
+    font-family: Courier New;
+    font-size: 1rem;
 }
 
 #contactForm button[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
     /*margin-bottom: 0;*/
     /*Höhe nur für Verständnis hier, wir mit JS gesetzt,
     da sonst bug bei Erstaufruf der Seite, wegen dynamischer größe.*/
     height: 10%; //
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: dimgray;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
 }
 
 
 #contactForm button[type=submit]:hover {
-    background-color: #45a049;
+    background-color: lightgrey;
+    color: black;
+    border-color: black;
 }
 
 #contactInfo {
@@ -97,10 +105,14 @@
 
 #headerContactInfo {
     margin: 2rem;
+    color: white;
+    text-shadow: 0 0 3px black;
 }
 
 #contentContactInfo {
     margin: 1rem;
+    color: white;
+    text-shadow: 0 0 3px black;
 }
 
 .vertContentContactInfo {
@@ -113,6 +125,12 @@
     cursor: pointer;
 }
 
+.vertContentContactInfo a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 #linkContentContactInfo * {
     margin: 0.5rem;
 }
@@ -123,7 +141,6 @@
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    background-color: #b3d7ff;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -132,6 +149,8 @@
 
 .imgContactInfo:hover{
     opacity: 0.7;
+    background-color: lightgrey;
+    border: 1px solid black;
 }
 
 @media (min-width: 769px) {

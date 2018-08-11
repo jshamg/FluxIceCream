@@ -5,6 +5,8 @@
     margin-top: -2rem;
     margin-bottom: 0;
     background-color: #FAFDF3;
+    color: #B5E8D5;
+    text-shadow: 0 0 3px black;
 }
 
 @media (max-width: 768px) {

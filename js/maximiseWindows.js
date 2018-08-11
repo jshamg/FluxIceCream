@@ -19,7 +19,7 @@ $(document).ready(function() {
         if(h>700){
             if(w<=768){
                 $("#contactSite").css("height", h + $("#contactInfo").height());
-                $("#contact-col").css("height", $("#contact-col").height()-$("#contactInfo").height());
+                $("#contact-col").css("height", $("#contact-col").height()-$("#contactInfo").height() - 40);
 
             } else {
                 $("#contactSite").css("height", h);
@@ -28,7 +28,7 @@ $(document).ready(function() {
         } else {
             if(w<=768){
                 $("#contactSite").css("height", 700 + $("#contactInfo").height());
-                $("#contact-col").css("height", $("#contact-col").height()-$("#contactInfo").height());
+                $("#contact-col").css("height", $("#contact-col").height()-$("#contactInfo").height() - 40);
 
             } else {
                 $("#contactSite").css("height", 700);

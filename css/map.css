@@ -16,14 +16,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #FFB3BA;
 }
 
 #headerMapSiteInfo {
     margin: 2rem;
-}
-
-#MapSiteInfo {
-    margin: 1rem;
 }
 
 .vertContentMapInfo {
@@ -45,7 +42,7 @@
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    background-color: #b3d7ff;
+    background-color: #75CDE8;
     display: flex;
     flex-direction: column;
     justify-content: center;
