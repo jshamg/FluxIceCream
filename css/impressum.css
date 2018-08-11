@@ -22,3 +22,7 @@
 #page #pageStuff #content h3{
     padding-top: 10px;
 }
+
+p.last {
+    padding-bottom: 25px;
+}

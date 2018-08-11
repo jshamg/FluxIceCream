@@ -106,13 +106,12 @@
 #headerContactInfo {
     margin: 2rem;
     color: white;
-    text-shadow: 0 0 3px black;
+    /*text-shadow: 0 0 3px black;*/
 }
 
 #contentContactInfo {
     margin: 1rem;
-    color: white;
-    text-shadow: 0 0 3px black;
+    color: black;
 }
 
 .vertContentContactInfo {
