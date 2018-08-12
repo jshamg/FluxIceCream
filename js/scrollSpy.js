@@ -7,6 +7,9 @@ function scrollSpy() {
             current = sections[i];
         }
     }
+    if($('#mapSite').offset().bottom == 0){
+        current = sections[5];
+    }
     $("nav a[href='#"+current+"']").addClass('active');
     $("nav a").not("a[href='#"+current+"']").removeClass('active');
 }
