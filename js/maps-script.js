@@ -15,6 +15,6 @@ function myMap(){
 
     marker.setIcon(image);
     marker.setMap(map);
-    var infoWindow = new google.maps.InfoWindow({content:'<b>Flux Ice Cream</b><br>Prinzenallee 1<br>13357 Berlin'});
+    var infoWindow = new google.maps.InfoWindow({content:'<b>FLUX ICE CREAM</b><br>Prinzenallee 1<br>13357 Berlin'});
     infoWindow.open(map,marker);
 };
