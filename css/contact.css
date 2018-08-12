@@ -126,7 +126,7 @@
 
 .vertContentContactInfo a {
     color: black;
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: bold;
 }
 
@@ -140,6 +140,7 @@
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
+    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -149,7 +150,6 @@
 .imgContactInfo:hover{
     opacity: 0.7;
     background-color: lightgrey;
-    border: 1px solid black;
 }
 
 @media (min-width: 769px) {
