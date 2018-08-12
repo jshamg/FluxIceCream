@@ -22,40 +22,40 @@ function showSlides(n) {
     }
     switch(slideIndex) {
         case 1:
-            $prev.attr("src","pics/Waldmeister.svg");
-            $center.attr("src","pics/Erdbeere.svg");
+            $prev.attr("src","pics/waldmeister.svg");
+            $center.attr("src","pics/erdbeere.svg");
             $caption.text("Erdbeere");
-            $next.attr("src","pics/Vanille.svg");
+            $next.attr("src","pics/vanille.svg");
             break;
         case 2:
-            $prev.attr("src","pics/Erdbeere.svg");
-            $center.attr("src","pics/Vanille.svg");
+            $prev.attr("src","pics/erdbeere.svg");
+            $center.attr("src","pics/vanille.svg");
             $caption.text("Vanille");
-            $next.attr("src","pics/Schoki.svg");
+            $next.attr("src","pics/schoki.svg");
             break;
         case 3:
-            $prev.attr("src","pics/Vanille.svg");
-            $center.attr("src","pics/Schoki.svg");
+            $prev.attr("src","pics/vanille.svg");
+            $center.attr("src","pics/schoki.svg");
             $caption.text("Schokolade");
-            $next.attr("src","pics/Mango.svg");
+            $next.attr("src","pics/mango.svg");
             break;
         case 4:
-            $prev.attr("src","pics/Schoki.svg");
-            $center.attr("src","pics/Mango.svg");
+            $prev.attr("src","pics/schoki.svg");
+            $center.attr("src","pics/mango.svg");
             $caption.text("Mango");
-            $next.attr("src","pics/Waldmeister.svg");
+            $next.attr("src","pics/waldmeister.svg");
             break;
         case 5:
-            $prev.attr("src","pics/Mango.svg");
-            $center.attr("src","pics/Waldmeister.svg");
+            $prev.attr("src","pics/mango.svg");
+            $center.attr("src","pics/waldmeister.svg");
             $caption.text("Waldmeister");
-            $next.attr("src","pics/Erdbeere.svg");
+            $next.attr("src","pics/erdbeere.svg");
             break;
         default:
-            $prev.attr("src","pics/Waldmeister.svg");
-            $center.attr("src","pics/Erdbeere.svg");
+            $prev.attr("src","pics/waldmeister.svg");
+            $center.attr("src","pics/erdbeere.svg");
             $caption.text("Erdbeere");
-            $next.attr("src","pics/Vanille.svg");
+            $next.attr("src","pics/vanille.svg");
     }
     //Noch schnell das Cetering für die Sorten mit
     //FITTEXT hinzugefügt...
