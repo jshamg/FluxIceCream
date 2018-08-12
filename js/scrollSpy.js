@@ -8,7 +8,7 @@ function scrollSpy() {
         }
     }
     var scrollBottom = $(window).scrollTop() + $(window).height();
-    if($('#mapSite').offset().bottom <= scrollBottom){
+    if($('.bottombar').offset().top <= scrollBottom){
         current = sections[5];
     }
     $("nav a[href='#"+current+"']").addClass('active');
